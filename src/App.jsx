@@ -4,7 +4,7 @@ import Chart from "chart.js/auto";
 // During development (npm run dev), Vite runs on its own port (5173) while
 // PHP/Apache runs on a different one (80 or 8080). So we point this at the
 // full backend URL, not a relative path. Change this if your setup differs.
-const API_BASE = "http://localhost/expense-tracker/backend";
+const API_BASE = "https://devenexpensetracker.infinityfreeapp.com";
 
 export default function App() {
   const [expenses, setExpenses] = useState([]);
