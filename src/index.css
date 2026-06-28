@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #F6F1E4;
+  color: #1F2A24;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+::selection {
+  background: #C99A3B;
+  color: #fff;
+}
+
+.ledger-card {
+  background: #FFFDF7;
+  border: 1px solid #D9CFAF;
+}
